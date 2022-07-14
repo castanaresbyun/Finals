@@ -1,0 +1,157 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+body{
+  background: #000;
+}
+.hero{
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-position: left;
+}
+.hero .logo{
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  padding-right: 5px;
+  margin-right: 10rem;
+}
+nav{
+	display: flex; /* The flex property sets the flexible length on flexible items. */
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+/*The cursor property specifies the mouse cursor to be displayed when pointing over an element.
+The cursor is a pointer and indicates a link.*/
+
+span{
+	color: #f9004d; /*is a shade of pink*/
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;/*allows to set a width and height on the element.*/
+	padding: 10px  25px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: #f9004d;
+	transition: .4s;
+}
+.btn{
+	background-color:#FF7F50; /*this color is Coral color,a medium light shade of red-orange.*/
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s; 
+}
+.btn:hover{
+	transform: scale(1.2);
+}
+
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #191919; /*is a great dark red shade */
+}
+.about img{
+	height: 400px;
+	width: 450px;
+}
+.about-text{
+	width: 550px;
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-text h2{
+	color: #A45EE5;/* is a medium light shade of blue-magenta.*/
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.about-text h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.about-text p{
+	color: #fcfc;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+button{
+	background-color:#FF7F50;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+button:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
+.max-width{
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+section{
+  padding: 50px 0 50px 0;
+}
+.home{
+  display: flex;
+}
+.home .max-width{
+  width: 100%;
+  display: flex;
+}
+.home .home-content{
+  width: 150%;
+  padding: 1rem;
+}
+.home .home-content img{
+  width: 100%;
+  height: 20%;
+}
+.home p{
+  color: rgb(194, 191, 191);
+  margin-top: 1rem;
+  font-size: 12px;
+}
+.home .home-image{
+  width: 150%;
+  padding: 1rem;
+}
+.home .home-image img{
+  width: 100%;
+  height: 20%;
+}
